@@ -1,10 +1,12 @@
 ﻿namespace backend.Models
 {
-    public class Student
+    public class Instructor
     {
 
-        public int StudentId { get; set; }
+        public int InstructorId { get; set; }
         public string EnrolledCourses { get; set; }
-        
+
+
     }
+
 }
